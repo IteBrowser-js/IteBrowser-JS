@@ -1,6 +1,6 @@
 # 欢迎使用IteBrowser-JavaScript！
 ## 调用方法
-只要您引用js文件，那么IteBrowser-JavaScript将绑定在您的**网页**上（是网页，不是整个网站），一共有三种调用方法，如下：<br>
+只要您引用js文件，那么IteBrowser-JavaScript将绑定在您的**网页**上（是网页，不是整个网站），调用方法如下：<br>
 ### 调用方法:
 ```html
 <!DOCTYPE HTML>
