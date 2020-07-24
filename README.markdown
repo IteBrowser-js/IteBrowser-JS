@@ -9,7 +9,14 @@
   <meta charset="utf-8">
   <title>...</title>
   <!--[if lte IE8]>
+  <body>
     <script src="itebrowser-js/dist/itebrowser.js"></script><!--IteBrowser By Rocky(This is WaterMark)-->
+    <script>
+      window.onload = function(){
+        IteBrowser(document.body);
+      }
+    </script>
+  </body>
   <![endif]-->
 </head>
 <body>
