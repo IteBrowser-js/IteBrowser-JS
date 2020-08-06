@@ -9,7 +9,6 @@
   <meta charset="utf-8">
   <title>...</title>
   <!--[if lte IE8]>
-  <body>
     <script src="itebrowser-js/itebrowser.main.js"></script><!--IteBrowser By Rocky(This is WaterMark)-->
     <script>
       window.onload = function(){
@@ -18,7 +17,6 @@
       }
     </script>
     <div class="itebrowser-container"></div>
-  </body>
   <![endif]-->
 </head>
 <body>
