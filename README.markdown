@@ -10,12 +10,14 @@
   <title>...</title>
   <!--[if lte IE8]>
   <body>
-    <script src="itebrowser-js/dist/itebrowser.js"></script><!--IteBrowser By Rocky(This is WaterMark)-->
+    <script src="itebrowser-js/itebrowser.main.js"></script><!--IteBrowser By Rocky(This is WaterMark)-->
     <script>
       window.onload = function(){
-        IteBrowser(document.body);
+          var itebrowser = IteBrowser();
+          itebrowser.run(getElementsByClassName("itebrowser-container"));
       }
     </script>
+    <div class="itebrowser-container"></div>
   </body>
   <![endif]-->
 </head>
