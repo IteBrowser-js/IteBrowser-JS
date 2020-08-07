@@ -12,7 +12,7 @@
     <script src="itebrowser-js/itebrowser.main.js"></script><!--IteBrowser By Rocky(This is WaterMark)-->
     <script>
       window.onload = function(){
-          var itebrowser = IteBrowser();
+          var itebrowser = new IteBrowser();
           itebrowser.run(getElementsByClassName("itebrowser-container"));
       }
     </script>
