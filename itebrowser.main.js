@@ -10,9 +10,9 @@ main_itebrowser.run = function (DOMcontainer){
     do.innerHTML = do.innerHTML + "<h1>您的浏览器太老了。</h1>";
     do.innerHTML = do.innerHTML + "<h2>比较常用的浏览器：</h2>";
     do.innerHTML = do.innerHTML + "<div class="Browser">";
-    do.innerHTML = do.innerHTML + "	<h1><a href='https://google.cn/chrome' class='aa'><img src='image/chrome.png' height='50px' width='50px'>Google Chrome</a></h1>";
-    do.innerHTML = do.innerHTML + "	<h1><a href='https://firefox.com.cn' class='aa'><img src='image/firefox.png' height='50px' width='50px'>Firefox</a></h1>";
-    do.innerHTML = do.innerHTML + "	<h1><a href='https://opera.com/zh-cn' class='aa'><img src='image/opera.png' height='50px' width='50px'>Opera</a></h1>";
+    do.innerHTML = do.innerHTML + "	<h1><a href='https://google.cn/chrome' class='aa'><img src='https://itebrowser-js.github.io/image/chrome.png' height='50px' width='50px'>Google Chrome</a></h1>";
+    do.innerHTML = do.innerHTML + "	<h1><a href='https://firefox.com.cn' class='aa'><img src='https://itebrowser-js.github.io/image/firefox.png' height='50px' width='50px'>Firefox</a></h1>";
+    do.innerHTML = do.innerHTML + "	<h1><a href='https://opera.com/zh-cn' class='aa'><img src='https://itebrowser-js.github.io/image/opera.png' height='50px' width='50px'>Opera</a></h1>";
     do.innerHTML = do.innerHTML + "</div>";
 }
 main_itebrowser.about = new Object();
